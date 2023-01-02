@@ -1,0 +1,38 @@
+h1{
+    background-color: green;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    animation-timing-function: animate 2s declaration;
+    @keyframes animate{
+        to{
+      transform: animate (0,100deg) 
+        }
+
+    }
+}
+.msg{
+    margin: 50px;
+    padding: 50px;
+}
+.msg{
+    width: 50px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    box-sizing: 50px;
+    animation:  animate 2s linear infinite;
+}
+@keyframes animate{
+    to{
+        transform: rotate(360deg);
+    }
+
+    
+
+}
+body{
+    background-color: aquamarine;
+}
